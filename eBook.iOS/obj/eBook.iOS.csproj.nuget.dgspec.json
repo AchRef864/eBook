@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tasni\\git\\eBook\\eBook.iOS\\eBook.iOS.csproj": {}
+    "D:\\GitHub\\eBook\\eBook.iOS\\eBook.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tasni\\git\\eBook\\eBook.iOS\\eBook.iOS.csproj": {
+    "D:\\GitHub\\eBook\\eBook.iOS\\eBook.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tasni\\git\\eBook\\eBook.iOS\\eBook.iOS.csproj",
+        "projectUniqueName": "D:\\GitHub\\eBook\\eBook.iOS\\eBook.iOS.csproj",
         "projectName": "eBook.iOS",
-        "projectPath": "C:\\Users\\tasni\\git\\eBook\\eBook.iOS\\eBook.iOS.csproj",
-        "packagesPath": "C:\\Users\\tasni\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tasni\\git\\eBook\\eBook.iOS\\obj\\",
+        "projectPath": "D:\\GitHub\\eBook\\eBook.iOS\\eBook.iOS.csproj",
+        "packagesPath": "C:\\Users\\rahal\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\eBook\\eBook.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\tasni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rahal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\tasni\\git\\eBook\\eBook\\eBook.csproj": {
-                "projectPath": "C:\\Users\\tasni\\git\\eBook\\eBook\\eBook.csproj"
+              "D:\\GitHub\\eBook\\eBook\\eBook.csproj": {
+                "projectPath": "D:\\GitHub\\eBook\\eBook\\eBook.csproj"
               }
             }
           }
@@ -65,20 +65,20 @@
         }
       }
     },
-    "C:\\Users\\tasni\\git\\eBook\\eBook\\eBook.csproj": {
+    "D:\\GitHub\\eBook\\eBook\\eBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tasni\\git\\eBook\\eBook\\eBook.csproj",
+        "projectUniqueName": "D:\\GitHub\\eBook\\eBook\\eBook.csproj",
         "projectName": "eBook",
-        "projectPath": "C:\\Users\\tasni\\git\\eBook\\eBook\\eBook.csproj",
-        "packagesPath": "C:\\Users\\tasni\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tasni\\git\\eBook\\eBook\\obj\\",
+        "projectPath": "D:\\GitHub\\eBook\\eBook\\eBook.csproj",
+        "packagesPath": "C:\\Users\\rahal\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\eBook\\eBook\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\tasni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rahal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

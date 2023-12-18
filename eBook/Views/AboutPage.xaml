@@ -23,7 +23,7 @@
             </Grid.RowDefinitions>
             <StackLayout BackgroundColor="{StaticResource Accent}" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
                 <StackLayout Padding="0,0,0,100" Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="StartAndExpand" Spacing="10">
-                    <Image Source="books_landing_page.png" HeightRequest="200" VerticalOptions="Start" />
+                    <Image Source="logo.jpg" HeightRequest="200" VerticalOptions="Start" />
                     <Label Text="Welcome to Our Book Shop!" FontSize="48" Padding="50,0,50,0" HorizontalTextAlignment="Center"/>
                 </StackLayout>
             </StackLayout>

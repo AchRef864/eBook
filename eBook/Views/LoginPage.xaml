@@ -5,10 +5,23 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="eBook.Views.LoginPage"
-             Shell.NavBarIsVisible="False">
+             Shell.NavBarIsVisible="False"
+             Title="KHRA">
     <ContentPage.Content>
-        <StackLayout Padding="10,0,10,0" VerticalOptions="Center">
-            <Button VerticalOptions="Center" Text="Login" Command="{Binding LoginCommand}"/>
+        <StackLayout Padding="40" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+
+            <Image Source="logo.jpg" WidthRequest="180" HeightRequest="180"></Image>
+            <Entry x:Name="txtUsername"  Placeholder="Username" TextColor="Gray" PlaceholderColor="Gray"></Entry>
+            <Entry x:Name="txtPassword" Placeholder="Password"  IsPassword="True" TextColor="Gray" PlaceholderColor="Gray"></Entry>
+            <Button
+                VerticalOptions="Center"
+                Text="Login"
+                TextColor="Gray"
+                BackgroundColor="Transparent"
+                BorderWidth="1.5"
+                BorderColor="DarkRed"
+                CornerRadius="50"
+               ></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

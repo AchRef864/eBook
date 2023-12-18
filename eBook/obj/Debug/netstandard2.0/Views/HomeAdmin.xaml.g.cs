@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("eBook.Views.AdminLogin.xaml", "Views/AdminLogin.xaml", typeof(global::eBook.Views.AdminLogin))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("eBook.Views.HomeAdmin.xaml", "Views/HomeAdmin.xaml", typeof(global::eBook.Views.HomeAdmin))]
 
 namespace eBook.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\AdminLogin.xaml")]
-    public partial class AdminLogin : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\HomeAdmin.xaml")]
+    public partial class HomeAdmin : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(AdminLogin));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(HomeAdmin));
         }
     }
 }

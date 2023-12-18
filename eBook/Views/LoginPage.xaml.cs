@@ -17,5 +17,17 @@ namespace eBook.Views
             InitializeComponent();
             this.BindingContext = new LoginViewModel();
         }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            if (txtUsername.Text == "admin" && txtPassword.Text == "admin")
+            {
+                Navigation.PushAsync(new HomeAdmin());
+            }
+            else
+            {
+                DisplayAlert("Ops..", "Username or password is incorrect!", "ok");
+            }
+        }
     }
 }

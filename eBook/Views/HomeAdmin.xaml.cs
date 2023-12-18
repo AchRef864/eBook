@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace eBook.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class AdminLogin : ContentPage
+    public partial class HomeAdmin : ContentPage
     {
-        public AdminLogin()
+        public HomeAdmin()
         {
             InitializeComponent();
         }

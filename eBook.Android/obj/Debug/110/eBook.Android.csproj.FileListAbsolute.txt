@@ -57,7 +57,6 @@ C:\Users\tasni\git\eBook\eBook.Android\obj\Debug\110\res\mipmap-xxxhdpi\launcher
 C:\Users\tasni\git\eBook\eBook.Android\obj\Debug\110\res\drawable\xamarin_logo.png
 C:\Users\tasni\git\eBook\eBook.Android\obj\Debug\110\res\drawable\icon_about.png
 C:\Users\tasni\git\eBook\eBook.Android\obj\Debug\110\res\drawable\icon_feed.png
-C:\Users\tasni\git\eBook\eBook.Android\obj\Debug\110\res\drawable\logo.jpg
 C:\Users\tasni\git\eBook\eBook.Android\obj\Debug\110\uploadflags.txt
 C:\Users\tasni\git\eBook\eBook.Android\obj\Debug\110\resolvedassemblies.hash
 C:\Users\tasni\git\eBook\eBook.Android\obj\Debug\110\android\assets\eBook.Android.dll
@@ -578,3 +577,5 @@ C:\Users\tasni\git\eBook\eBook.Android\obj\Debug\110\stamp\_ConvertResourcesCase
 C:\Users\tasni\git\eBook\eBook.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 C:\Users\tasni\git\eBook\eBook.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\tasni\git\eBook\eBook.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\tasni\git\eBook\eBook.Android\obj\Debug\110\res\drawable\admin.png
+C:\Users\tasni\git\eBook\eBook.Android\obj\Debug\110\res\drawable\landing.jpg

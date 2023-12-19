@@ -9,19 +9,48 @@
              Title="KHRA">
     <ContentPage.Content>
         <StackLayout Padding="40" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+            
+                <Image Source="admin.png" WidthRequest="180" HeightRequest="180"></Image>
+                <Label Text="BookFinder" FontSize="30" TextColor="#1a1a1a" Padding="50,30,50,0" HorizontalTextAlignment="Center"/>
+                <Label Text="Please login!" FontSize="20" TextColor="#333333" Padding="50,0,50,30" HorizontalTextAlignment="Center"/>
+            
+            
+                <Label Text="Username*" TextColor="#1a1a1a" HorizontalTextAlignment="Start"/>
+            <Frame BorderColor="Black" HasShadow="False" Padding="0,0,0,10" CornerRadius="10" >
+                    <Entry x:Name="txtUsername"
+               Placeholder="Enter your name"
+               TextColor="Gray"
+               PlaceholderColor="Gray"
+                />
+                </Frame>
+           
+            
+                <Label Text="Password*" TextColor="#1a1a1a"  HorizontalTextAlignment="Start"/>
+            <Frame BorderColor="Black" HasShadow="False"  Padding="0,0,0,10" CornerRadius="10">
+                    <Entry x:Name="txtPassword"
+               Placeholder="Enter your password"
+               IsPassword="True"
+               TextColor="Gray"
+               PlaceholderColor="Gray"
+               BackgroundColor="Transparent"/>
+                </Frame>
+            
 
-            <Image Source="logo.jpg" WidthRequest="180" HeightRequest="180"></Image>
-            <Entry x:Name="txtUsername"  Placeholder="Username" TextColor="Gray" PlaceholderColor="Gray"></Entry>
-            <Entry x:Name="txtPassword" Placeholder="Password"  IsPassword="True" TextColor="Gray" PlaceholderColor="Gray"></Entry>
-            <Button
-                VerticalOptions="Center"
+
+            <StackLayout Padding="0,40,0,0" VerticalOptions="End">
+                <Button
+                   
+                 VerticalOptions="EndAndExpand"
                 Text="Login"
-                TextColor="Gray"
-                BackgroundColor="Transparent"
+                TextColor="White"
+                BackgroundColor="#333333"
                 BorderWidth="1.5"
-                BorderColor="DarkRed"
-                CornerRadius="50"
+                Padding="0,0,0,0"
+                CornerRadius="10"
                 Clicked="Button_Clicked"></Button>
+
+            </StackLayout>
+                
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

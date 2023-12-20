@@ -1,12 +1,82 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="eBook.Views.HomeAdmin">
+             xmlns:local="clr-namespace:eBook.Models"
+             x:Class="eBook.Views.HomeAdmin"
+             Title="Books list">
+
+
+    <ContentPage.BindingContext>
+        <local:ProductInfoViewModel />
+    </ContentPage.BindingContext>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem 
+            x:Name="btnAdd"
+            Text="ADD"
+            Clicked="btnAdd_Clicked"/>
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to HomeAdmin!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <ListView ItemsSource="{Binding ItemList}"
+              HasUnevenRows="True"
+              SeparatorVisibility="None"
+              SeparatorColor="Black">
+                <ListView.ItemTemplate>
+                    <DataTemplate >
+                        <ViewCell>
+                            <ViewCell.ContextActions>
+                                <MenuItem x:Name="btnAfficher"
+                                          Text="Details"
+                                          Clicked="btnAfficher_Clicked"
+                                          CommandParameter="{Binding .}"></MenuItem>
+                                <MenuItem x:Name="btnDelete"
+                                          Text="Delete"
+                                          Clicked="btnDelete_Clicked"
+                                          CommandParameter="{Binding .}"></MenuItem>
+                            </ViewCell.ContextActions>
+                            <Grid Padding="10">
+                                
+                                <Frame CornerRadius="10" HasShadow="True">
+                                    
+                                    <Grid>
+                                        <!-- Utilisation d'une ligne et de trois colonnes -->
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto"/>
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto"/>
+                                            <ColumnDefinition Width="*"/>
+                                        </Grid.ColumnDefinitions>
+
+                                        <!-- Colonne 1 : Image -->
+                                        <Image Source="{Binding UrlImage}" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" WidthRequest="150" HeightRequest="100" Grid.Row="0" Grid.Column="0"></Image>
+
+                                        <!-- Colonne 2 : Détails -->
+                                        <StackLayout Grid.Row="0" Grid.Column="1">
+                                            <StackLayout Padding="0,2,0,0">
+                                                <Label Text="{Binding ProductName}" ></Label>
+                                            </StackLayout>
+                                            
+                                            <StackLayout Padding="0,32,0,0">
+                                                <Label Text="{Binding Price}" TextColor="Gray"></Label>
+                                            </StackLayout>
+                                        </StackLayout>
+
+                                        <StackLayout  Padding="0,70,0,10" Grid.Row="0" Grid.Column="2">
+                                            <Image Source="edit.png"  WidthRequest="10" HeightRequest="20"></Image>
+                                        </StackLayout>
+
+                                    </Grid>
+                                      
+                                    
+                                </Frame>
+                                
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
+
     </ContentPage.Content>
 </ContentPage>

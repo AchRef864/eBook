@@ -29,5 +29,10 @@ namespace eBook.Views
                 DisplayAlert("Ops..", "Username or password is incorrect!", "ok");
             }
         }
+
+        private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ItemsPage());
+        }
     }
 }

@@ -19,3 +19,4 @@ C:\Users\tasni\git\eBook\eBook\obj\Debug\netstandard2.0\eBook.dll
 C:\Users\tasni\git\eBook\eBook\obj\Debug\netstandard2.0\ref\eBook.dll
 C:\Users\tasni\git\eBook\eBook\obj\Debug\netstandard2.0\eBook.pdb
 C:\Users\tasni\git\eBook\eBook\obj\Debug\netstandard2.0\Views\HomeAdmin.xaml.g.cs
+C:\Users\tasni\git\eBook\eBook\obj\Debug\netstandard2.0\Views\Add.xaml.g.cs

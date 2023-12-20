@@ -6,40 +6,57 @@
              mc:Ignorable="d"
              x:Class="eBook.Views.LoginPage"
              Shell.NavBarIsVisible="False"
-             Title="KHRA">
+             >
     <ContentPage.Content>
         <StackLayout Padding="40" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
-            
-                <Image Source="admin.png" WidthRequest="180" HeightRequest="180"></Image>
-                <Label Text="BookFinder" FontSize="30" TextColor="#1a1a1a" Padding="50,30,50,0" HorizontalTextAlignment="Center"/>
-                <Label Text="Please login!" FontSize="20" TextColor="#333333" Padding="50,0,50,30" HorizontalTextAlignment="Center"/>
-            
-            
-                <Label Text="Username*" TextColor="#1a1a1a" HorizontalTextAlignment="Start"/>
-            <Frame BorderColor="Black" HasShadow="False" Padding="0,0,0,10" CornerRadius="10" >
-                    <Entry x:Name="txtUsername"
-               Placeholder="Enter your name"
-               TextColor="Gray"
-               PlaceholderColor="Gray"
-                />
-                </Frame>
-           
-            
-                <Label Text="Password*" TextColor="#1a1a1a"  HorizontalTextAlignment="Start"/>
-            <Frame BorderColor="Black" HasShadow="False"  Padding="0,0,0,10" CornerRadius="10">
-                    <Entry x:Name="txtPassword"
-               Placeholder="Enter your password"
-               IsPassword="True"
-               TextColor="Gray"
-               PlaceholderColor="Gray"
-               BackgroundColor="Transparent"/>
-                </Frame>
-            
+            <Image Source="admin.png" WidthRequest="180" HeightRequest="180"></Image>
+                
+            <Label Text="BookFinder" FontSize="35" TextColor="#1a1a1a" Padding="50,30,50,0" HorizontalTextAlignment="Center"/>
+            <Label Text="Please login!" FontSize="15" TextColor="#333333" Padding="50,0,50,30" HorizontalTextAlignment="Center"/>
+                       
+            <Label Text="Username*" TextColor="#1a1a1a" HorizontalTextAlignment="Start"/>
+            <Frame BackgroundColor="White" CornerRadius="5" Padding="5">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Entry x:Name="txtUsername" Placeholder="Enter username" />
+                    <Image Source="user.png" WidthRequest="18" HeightRequest="20" HorizontalOptions="End" Grid.Column="1"></Image>
+                </Grid>
+            </Frame>
 
 
-            <StackLayout Padding="0,40,0,0" VerticalOptions="End">
-                <Button
-                   
+
+            <StackLayout Padding="0,10,0,0">
+            <Label Text="Password*" TextColor="#1a1a1a"  HorizontalTextAlignment="Start"/>
+            </StackLayout>
+            <Frame BorderColor="White" HasShadow="False" Padding="0,0,0,0" CornerRadius="5">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Entry x:Name="txtPassword" Placeholder="Enter password" IsPassword="True"/>
+                    <Image Source="lock.png" WidthRequest="18" HeightRequest="20"  Grid.Column="1"></Image>
+                </Grid>
+            </Frame>
+
+            <Label HorizontalOptions="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Not an admin?" TextColor="#1a1a1a"/>
+                        <Span Text="Back" TextColor="Gray" TextDecorations="Underline"/>
+                    </FormattedString>
+                </Label.FormattedText>
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                </Label.GestureRecognizers>
+            </Label>
+
+
+            <StackLayout Padding="0,80,0,0" VerticalOptions="End">
+                <Button                 
                  VerticalOptions="EndAndExpand"
                 Text="Login"
                 TextColor="White"
@@ -48,8 +65,9 @@
                 Padding="0,0,0,0"
                 CornerRadius="10"
                 Clicked="Button_Clicked"></Button>
-
             </StackLayout>
+
+            
                 
         </StackLayout>
     </ContentPage.Content>

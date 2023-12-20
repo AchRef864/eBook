@@ -579,3 +579,12 @@ C:\Users\tasni\git\eBook\eBook.Android\obj\Debug\110\stamp\_GeneratePackageManag
 C:\Users\tasni\git\eBook\eBook.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\tasni\git\eBook\eBook.Android\obj\Debug\110\res\drawable\admin.png
 C:\Users\tasni\git\eBook\eBook.Android\obj\Debug\110\res\drawable\landing.jpg
+C:\Users\tasni\git\eBook\eBook.Android\obj\Debug\110\res\drawable\lock.png
+C:\Users\tasni\git\eBook\eBook.Android\obj\Debug\110\res\drawable\user.png
+C:\Users\tasni\git\eBook\eBook.Android\obj\Debug\110\res\drawable\r.jpeg
+C:\Users\tasni\git\eBook\eBook.Android\obj\Debug\110\res\drawable\edit.png
+C:\Users\tasni\git\eBook\eBook.Android\obj\Debug\110\res\drawable\oip.jpeg
+C:\Users\tasni\git\eBook\eBook.Android\obj\Debug\110\res\drawable\alc.jpeg
+C:\Users\tasni\git\eBook\eBook.Android\obj\Debug\110\res\drawable\road.jpeg
+C:\Users\tasni\git\eBook\eBook.Android\obj\Debug\110\res\drawable\run.jpeg
+C:\Users\tasni\git\eBook\eBook.Android\obj\Debug\110\res\drawable\brave.jpeg
